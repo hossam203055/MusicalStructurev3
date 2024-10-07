@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/playingSongBackground"
+    tools:context="com.hsm.musicalstructurev3.PlayingSong">
+
+    <ImageView
+        android:id="@+id/songImageViewInCurrentPlaying"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:layout_margin="10dp"
+        android:scaleType="fitCenter"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="2.8">
+
+        <TextView
+            android:id="@+id/songTextViewInCurrentPlaying"
+            style="@style/songStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Song" />
+
+        <TextView
+            android:id="@+id/artistTextViewInCurrentPlaying"
+            style="@style/artistStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Artist" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3.3"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/playPauseButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/stopButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Stop" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3.4"
+        android:background="@color/backButtonColor"
+        android:text="Back" />
+</LinearLayout>

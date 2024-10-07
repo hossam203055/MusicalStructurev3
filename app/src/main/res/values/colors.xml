@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="playingSongBackground">#25a5f4</color>
+    <color name="mainActivityBackground">#51c4e1</color>
+    <color name="backButtonColor">#d40c0c</color>
+</resources>
